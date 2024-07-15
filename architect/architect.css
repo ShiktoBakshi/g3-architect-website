@@ -186,13 +186,13 @@ background: rgb(255, 244, 231);
 }
 /* responsive media */
 @media screen and (max-width:576px) {
-  .navbar, .nav-links, .teams{
+  .navbar, .nav-links, .teams, .features-s{
     flex-direction: column;
   }
   .team-img-container,
   .fact-container,
   .sponsor-companies,
-  .features-s{
+  {
     grid-template-columns: repeat(1,1fr);
   }
   .fact-container 
